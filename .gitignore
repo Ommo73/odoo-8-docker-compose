@@ -1,0 +1,39 @@
+# Idea
+.idea
+
+# Python
+*.pyc
+__pycache__
+*.sqlite3
+virtualenv
+*.log
+*.log.*
+
+# Project
+/backend/static
+.env
+media/
+venv/
+docker.env
+dump.rdb
+debug_local.py
+debug_prod.py
+*.gz
+*.sql
+*.dump
+routes/
+*.local.*
+
+# Sphinx documentation
+docs/_build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode
+.vscode/*
+
+#Vim
+.vimspector.json
