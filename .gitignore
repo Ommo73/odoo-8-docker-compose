@@ -10,22 +10,8 @@ virtualenv
 *.log.*
 
 # Project
-/backend/static
 .env
-media/
-venv/
 docker.env
-dump.rdb
-debug_local.py
-debug_prod.py
-*.gz
-*.sql
-*.dump
-routes/
-*.local.*
-
-# Sphinx documentation
-docs/_build/
 
 # macOS
 .DS_Store
